@@ -2,7 +2,7 @@ manifestVersion: 1
 id: soggy-pools-aio
 category: bitcoin
 name: Soggy Pools AIO (5tratumOS)
-version: "0.2.104-5tratumos"
+version: "0.2.105-5tratumos"
 tagline: Self-hosted SHA-256 and Scrypt solo mining
 description: >-
   5tratumOS testing build of Soggy Pools AIO. Runs your own node and solo
@@ -19,5 +19,5 @@ dependencies: []
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-releaseNotes: "Fixes unintended CKPool restarts following temporary node RPC or supervisor errors. Preserves active miner connections during recovery and improves diagnostic logging."
+releaseNotes: "Testing update: adds CKPool restart-reason and exit-code diagnostics, a brief grace period for transient peer/header issues, and cleaner handling of disconnected RPC clients. Keeps safety checks for initial block download."
 icon: https://raw.githubusercontent.com/SoggyHammyDev/soggy-pools-store/main/soggy-pools-aio/icon.svg
